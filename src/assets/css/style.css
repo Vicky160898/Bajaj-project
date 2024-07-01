@@ -57,7 +57,7 @@ main {
     z-index: 999;
     background-color: #00000087;
     width: 100%;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
 }
 
 .layOverBg{
@@ -153,6 +153,7 @@ main {
     background-repeat: no-repeat;
     left: 65px;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     position: absolute;
@@ -164,6 +165,7 @@ main {
     background-repeat: no-repeat;
     left: 65px;
     background-size: contain;
+    background-position: center;
     content: "";
     display: block;
     position: absolute;
@@ -239,6 +241,22 @@ main {
 
 .active-nav .nav-link-profile:before {
     background-image: url(../images/nav-icons/profile-active.png);
+}
+
+.nav-link-faq:before {
+    background-image: url(../images/nav-icons/faq.png);
+}
+
+.active-nav .nav-link-faq:before {
+    background-image: url(../images/nav-icons/faq-active.png);
+}
+
+.nav-link-metrics:before {
+    background-image: url(../images/nav-icons/metrics.png);
+}
+
+.active-nav .nav-link-metrics:before {
+    background-image: url(../images/nav-icons/metrics-active.png);
 }
 
 .nav-link-logout {
@@ -451,7 +469,7 @@ main {
     border-radius: 30px;
     border: none;
     margin: 7px 0px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 0em;
@@ -2505,3 +2523,152 @@ main {
     color: #ffffff;
 }
 
+.welcome-login{
+    width: 100%;
+    height: 100vh;
+    background-color: #005DAC;
+    background-image: url(../images/login-wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.login-box{
+    padding: 40px;
+    border: 1px solid #001F331A;
+    box-shadow: 4px 8px 24px 0px #0000000D;
+    max-width: 517px;
+    margin: 0 auto;
+    border-radius: 32px;
+    background: url(../images/target_bg.png) no-repeat top center, #F3F9FC;
+}
+
+.welcome-login .logo{
+    margin-bottom: 60px;
+}
+
+.login-box h1{
+    font-family: Exo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42.53px;
+    text-align: center;
+    color: #005DAC;
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #001F330D;
+}
+
+.login-box p{
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #001F33;
+    margin-bottom: 15px;
+}
+
+.login-box .input-code {
+    position: relative;
+}
+
+.login-box .input-code input{
+    border: 1px solid #001F331A;
+    display: block;
+    width: 100%;
+    height: 52px;
+    border-radius: 30px;
+    padding: 5px 20px 5px 55px;
+    margin-bottom: 25px;
+}
+
+.login-box .input-code .user-emp-icon{
+    background-image: url(../images/icons/emp-code.svg);
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.login-box button{
+    display: block;
+    background: #005DAC;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #005DAC;
+    height: 52px;
+    padding: 12px;
+    transition: 0.25s;
+}
+
+.login-box button:hover{
+    color: #005DAC;
+    background-color: #ffffff;
+    border: 2px solid #005DAC;
+}
+
+.login-box span{
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #001f3380;
+    margin-top: 14px;
+    display: block;
+}
+
+.mnth-year-select-too{
+    right: 205px;
+    width: 180px;
+}
+
+.mnth-year-select-too .selected-value{
+    color: #001f33;
+}
+
+.year-select-too {
+    width: 165px;
+}
+
+.mnth-year-select-too .select-button{
+    width: 175px;
+}
+
+.year-select-too .select-button{
+    width: 160px;
+}
+
+.year-select-too .selected-value{
+    color: #001f33;
+}
+
+.issuance_premium p{
+    font-size: 16px;
+}
+
+.issuance_target p{
+    font-size: 16px;
+}
+
+.financial-year{
+    width: 300px !important;
+}
+
+.financial-year .select-button {
+    width: 250px;
+}
+
+.financial-year .selected-value{
+    color: #001f33;
+}

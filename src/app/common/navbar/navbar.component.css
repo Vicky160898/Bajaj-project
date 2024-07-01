@@ -64,6 +64,50 @@
     .nav-width .logo {
         padding: 25px 15px 20px 25px;
     }
+
+    .nav-width {
+        width: 114px;
+    }
+
+    .nav-width a{
+        padding: 14px 10px 14px 18px;
+        font-size: 0;
+    }
+
+    .nav-width .active-nav a:before {
+        left: 35px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .nav-width a:before{
+        left: 35px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .nav-width .nav-link-logout{
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-width .nav-link-logout:before{
+        left: 15px !important;
+        top: 15px;
+    }
+
+    .nav-open-close-btn{
+        top: 59px;
+        width: 30px;
+        height: 30px;
+        right: -10px;
+    }
+
+    .nav-open-close-btn img{
+        width: 20px;
+        height: 20px;
+    }
+    
 }
 
 @media screen and (max-width: 992px) {

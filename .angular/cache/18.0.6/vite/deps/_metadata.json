@@ -1,0 +1,55 @@
+{
+  "hash": "8e0da798",
+  "configHash": "a47592c0",
+  "lockfileHash": "a7a7be84",
+  "browserHash": "537df23d",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "6d3bc367",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "35744d0a",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "445bc8b3",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "17059971",
+      "needsInterop": false
+    },
+    "angular-svg-round-progressbar": {
+      "src": "../../../../../node_modules/angular-svg-round-progressbar/fesm2022/angular-svg-round-progressbar.mjs",
+      "file": "angular-svg-round-progressbar.js",
+      "fileHash": "999c1f12",
+      "needsInterop": false
+    },
+    "ng2-charts": {
+      "src": "../../../../../node_modules/ng2-charts/fesm2020/ng2-charts.mjs",
+      "file": "ng2-charts.js",
+      "fileHash": "c81147e1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Y7MFO4QW": {
+      "file": "chunk-Y7MFO4QW.js"
+    },
+    "chunk-DODDNE6U": {
+      "file": "chunk-DODDNE6U.js"
+    },
+    "chunk-2TOABMQE": {
+      "file": "chunk-2TOABMQE.js"
+    }
+  }
+}

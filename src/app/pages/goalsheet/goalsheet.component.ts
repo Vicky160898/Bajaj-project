@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './goalsheet.component.css'
 })
 export class GoalsheetComponent {
+  isUserVisible: boolean = false;
+    
+  toggleUserInfoVisibility(): void {
+    this.isUserVisible = !this.isUserVisible;
+  }
 
 }

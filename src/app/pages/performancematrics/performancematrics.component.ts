@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './performancematrics.component.css'
 })
 export class PerformancematricsComponent {
-
+  isUserVisible: boolean = false;
+    
+  toggleUserInfoVisibility(): void {
+    this.isUserVisible = !this.isUserVisible;
+  }
 }

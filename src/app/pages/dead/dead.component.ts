@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './dead.component.css'
 })
 export class DeadComponent {
-  
+  isUserVisible: boolean = false;
+    
+  toggleUserInfoVisibility(): void {
+    this.isUserVisible = !this.isUserVisible;
+  }
+
 }

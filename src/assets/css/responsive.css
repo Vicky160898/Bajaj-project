@@ -28,7 +28,7 @@
     }
 
     .main-right-content {
-        padding: 50px 0px 50px 128px;
+        padding: 50px 0px 50px 114px;
         /* padding: 50px 0px 50px 300px; */
         /* content optimise */
     }
@@ -41,14 +41,23 @@
 
     .main-left-nav nav a:before {
         left: 35px;
+        height: 22px;
+        width: 22px;
     }
 
     .main-left-nav nav a {
-        padding: 18px 10px 18px 75px;
+        padding: 15px 10px 15px 75px;
+        font-size: 16px;
+    }
+
+    .nav-link-logout{
+        margin: 30px auto 0;
     }
 
     .main-left-nav nav .active-nav a:before {
         left: 35px;
+        height: 22px;
+        width: 22px;
     }
 
     .tabs-mtd-ytd-monthly {
@@ -160,6 +169,21 @@
         font-size: 16px;
     }
 
+    .header-shot .heading1 {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+
+    .footer-business-shot p {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #clickshow-table {
+        font-size: 16px;
+    }
+
+
 }
 
 @media screen and (max-width: 1024px) {}
@@ -174,6 +198,38 @@
         background: none;
         border: none;
     }
+
+    .issuance_premium p{
+        font-size: 14px;
+    }
+    
+    .issuance_target p{
+        font-size: 14px;
+    }
+    
+    .welcome-login{
+        padding-top: 60px;
+    }
+
+    .login-box {
+        padding: 20px;
+    }    
+
+    .login-box h1 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+    }
+
+    .login-box p {
+        font-size: 16px;
+    }    
+
+    .login-box button {
+        font-size: 16px;
+        height: 50px;
+        padding: 12px;
+    }    
 
     .tabs-mtd-ytd-monthly-content {
         margin-top: 15px;
@@ -535,6 +591,14 @@
         background-image: url(../images/nav-icons/profile-active.png);
     }
 
+    .nav-link-faq:before {
+        background-image: url(../images/nav-icons/faq-active.png);
+    }
+
+    .nav-link-metrics:before {
+        background-image: url(../images/nav-icons/metrics-active.png);
+    }
+
     .header-shot {
         padding: 0 0px;
     }
@@ -816,9 +880,17 @@
         position: relative;
         right: -15px;
         top: 0;
-        width: 195px;
+        width: 160px;
         padding: 0;
         margin-bottom: 25px;
+    }
+
+    .year-select-too .select-button {
+        width: 150px;
+    }    
+
+    .mnth-year-select-too .select-button {
+        width: 155px;
     }
 
     .monthly-select .custom-select {

@@ -28,6 +28,7 @@ export class BusinessDataComponent {
     { name: 'table 5', state: false },
     { name: 'table 6', state: false }
   ];
+  
 
   toggle(index: number) {
     this.toggles[index].state = !this.toggles[index].state;
@@ -46,6 +47,22 @@ export class BusinessDataComponent {
     }
   }
   // boostrap tooltip
+
+
+
+  togglesdrop = [
+    { name: 'table 1', state: false },
+    { name: 'table 2', state: false },
+    { name: 'table 3', state: false },
+    { name: 'table 4', state: false },
+    { name: 'table 5', state: false },
+    { name: 'table 6', state: false }
+  ];
+
+  toggleDropdown(index: number) {
+    this.togglesdrop[index].state = !this.togglesdrop[index].state;
+  
+  }
   
 }
 
