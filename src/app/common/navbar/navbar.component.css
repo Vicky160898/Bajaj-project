@@ -1,0 +1,120 @@
+.nav-open-close-btn{
+    position: absolute;
+    right: -15px;
+    top: 59px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.nav-open-close-btn img{
+    width: 25px;
+    height: 25px;
+}
+
+.nav-width {
+    width: 128px;
+}
+
+.nav-width a{
+    padding: 18px 10px 18px 18px;
+    font-size: 0;
+}
+
+.nav-width .active-nav a:before {
+    left: 45px;
+}
+
+.nav-width a:before{
+    left: 45px;
+}
+
+.nav-width .nav-link-logout{
+    font-size: 0;
+    width: 70px;
+    height: 70px;
+    padding: 0 !important;
+    margin: 50px auto 0;
+    border-radius: 50%;
+}
+
+.nav-width .nav-link-logout:before{
+    left: 20px !important;
+    top: 20px;
+}
+
+.nav-width .logo .image-logo{
+    content: url(../../../assets/images/small-logo.svg);
+    width: 90%;
+    margin-top: 15px;
+}
+
+.nav-width .logo {
+    padding: 15px 15px 20px 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-width .logo {
+        padding: 25px 15px 20px 25px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-width {
+        width: auto;
+    } 
+
+    .nav-width .logo .image-logo{
+        content: url(../../../assets/images/bajaj-logo.svg);
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .nav-width .logo {
+        padding: 25px 15px 20px 5px !important;
+    }
+
+    .nav-width a{
+        padding: 12px 15px 12px 45px !important;
+        text-align: left !important;
+        opacity: 1 !important;
+        font-size: 16px !important;
+        border: none !important;
+        border-bottom: 1px solid #001F331A !important;
+    }
+
+    .nav-width .active-nav a:before {
+        left: 6px;
+    }
+    
+    .nav-width a:before{
+        left: 6px;
+    }
+
+    .nav-width .nav-link-logout{
+        background-color: transparent !important;
+        width: 90%;
+        margin: 40px auto 0 !important;
+        border: 1px solid #ff000036 !important;
+        padding: 20px 0px 20px 30px !important;
+        font-size: 14px !important;
+        text-align: center !important;
+        border-radius: 12px;
+    }
+
+    .nav-width .nav-link-logout::before{
+        left: 75px !important;
+    }
+}
+
+
+.newdiv {
+    background-color: lightgreen; /* Example new style */
+  }

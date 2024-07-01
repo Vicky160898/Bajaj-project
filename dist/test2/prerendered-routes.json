@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/application-status",
+    "/business",
+    "/dead-business",
+    "/goal",
+    "/incentive",
+    "/lead-tracker",
+    "/persistency",
+    "/profile",
+    "/smp-report"
+  ]
+}
