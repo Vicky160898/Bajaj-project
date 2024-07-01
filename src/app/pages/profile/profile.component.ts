@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './profile.component.css'
 })
 export class ProfileComponent {
-
+  isUserVisible: boolean = false;
+    
+  toggleUserInfoVisibility(): void {
+    this.isUserVisible = !this.isUserVisible;
+  }
 }

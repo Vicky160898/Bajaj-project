@@ -10,9 +10,11 @@
 
   <nav class="inner-nav" [ngClass]="{ 'nav-width': isNavWidth }">
     <ul [ngClass]="{ '': !isNavbar, 'new-mobile-block': isNavbar }">
+
       <li class="close-nav-bar-mobile" (click)="toggleShowNavbar(!isNavbar)">
         <img src="../../../assets/images/close.png" alt="" />
       </li>
+
       <li>
         <a href="#" class="logo"
           ><img
@@ -38,34 +40,42 @@
       </li>
       <li
         routerLinkActive="active-nav"
-        [routerLink]="['/performance-matrices']"
-      >
-        <a class="nav-link-incentive">Performance Metrics</a>
+        [routerLink]="['/performance-matrices']">
+        <a class="nav-link-metrics">Performance Metrics</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/incentive']">
         <a class="nav-link-incentive">Incentive</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/goal']">
         <a class="nav-link-goalsheet">Goalsheet</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/smp-report']">
         <a class="nav-link-smp-report">SMP Report</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/persistency']">
         <a class="nav-link-persistency">Persistency</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/dead-business']">
         <a class="nav-link-dead-business">Dead Business</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/profile']">
         <a class="nav-link-profile">Profile</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/faq']">
-        <a class="nav-link-profile">FAQs & SPOC’s</a>
+        <a class="nav-link-faq">FAQs & SPOC’s</a>
       </li>
+
       <li routerLinkActive="active-nav" [routerLink]="['/logout']">
         <a class="nav-link-logout">Logout</a>
       </li>
+      
       <li class="mobile-app-version">Version 1.0.3</li>
     </ul>
   </nav>

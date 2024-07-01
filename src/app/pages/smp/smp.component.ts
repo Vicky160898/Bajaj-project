@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
   styleUrl: './smp.component.css'
 })
 export class SmpComponent{
- 
+  isUserVisible: boolean = false;
+    
+  toggleUserInfoVisibility(): void {
+    this.isUserVisible = !this.isUserVisible;
+  }
 
 }

@@ -14,8 +14,8 @@ export class BusinessGraphComponent  implements OnInit, AfterViewInit{
     isShow: boolean = false;
 
     constructor(@Inject(PLATFORM_ID) private platformId: Object, private renderer2: Renderer2) {
-        this.isBrowser = isPlatformBrowser(this.platformId);
-      }
+      this.isBrowser = isPlatformBrowser(this.platformId);
+    }
     
       public barChartLegend = true;
       public barChartPlugins = [];
@@ -63,8 +63,6 @@ export class BusinessGraphComponent  implements OnInit, AfterViewInit{
       };
 
 
-
-
       public barChartDataYtd: ChartConfiguration<'bar'>['data'] = {
         labels:  ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'] ,
         datasets: [
@@ -106,7 +104,6 @@ export class BusinessGraphComponent  implements OnInit, AfterViewInit{
             },
           },
       };
-  
   
 
       public barChartDataProductYtd: ChartConfiguration<'bar'>['data'] = {
@@ -194,9 +191,6 @@ export class BusinessGraphComponent  implements OnInit, AfterViewInit{
     },
   };
   
-  
-
-
 
 
   ngOnInit(): void {
@@ -204,11 +198,21 @@ export class BusinessGraphComponent  implements OnInit, AfterViewInit{
 
   ngAfterViewInit(): void {
  
-
-
   }
 
+  togglesdrop = [
+    { name: 'table 1', state: false },
+    { name: 'table 2', state: false },
+    { name: 'table 3', state: false },
+    { name: 'table 4', state: false },
+    { name: 'table 5', state: false },
+    { name: 'table 6', state: false }
+  ];
 
+  toggleDropdown(index: number) {
+    this.togglesdrop[index].state = !this.togglesdrop[index].state;
+  
+  }
 
 }
 
