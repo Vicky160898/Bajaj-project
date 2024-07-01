@@ -2,11 +2,9 @@
 <div class="main-left-nav">
   <!-- nav open close -->
 
-  <a class="nav-open-close-btn" (click)="toggleNavLeft()"
-    ><img
-      src="../../../assets/images/nav-icons/mobile-menu-arrow.svg"
-      alt="close-icon"
-  /></a>
+  <a class="nav-open-close-btn" (click)="toggleNavLeft()">
+    <img src="../../../assets/images/nav-icons/mobile-menu-arrow.svg" alt="close-icon"/>
+  </a>
 
   <nav class="inner-nav" [ngClass]="{ 'nav-width': isNavWidth }">
     <ul [ngClass]="{ '': !isNavbar, 'new-mobile-block': isNavbar }">

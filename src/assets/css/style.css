@@ -2605,8 +2605,16 @@ main {
     line-height: 24px;
     text-align: center;
     color: #ffffff;
+    border: 2px solid #005DAC;
     height: 52px;
-    padding: 14px;
+    padding: 12px;
+    transition: 0.25s;
+}
+
+.login-box button:hover{
+    color: #005DAC;
+    background-color: #ffffff;
+    border: 2px solid #005DAC;
 }
 
 .login-box span{
