@@ -16,42 +16,42 @@
         font-size: 16px;
     }
 
-}
-
-@media screen and (max-width: 1200px) {
-    .header-shot {
-        padding: 0 10px;
-    }
-
-    .inner-nav {
-        width: 300px;
-    }
-
     .main-right-content {
-        padding: 50px 0px 50px 114px;
+        padding: 30px 0px 50px 114px;
         /* padding: 50px 0px 50px 300px; */
         /* content optimise */
     }
 
-    .main-left-nav .logo img {
-        width: 55%;
-        left: -20px;
-        position: relative;
+    .issuance_premium.MarketUp h5{
+        font-size: 22px;
     }
 
-    .main-left-nav nav a:before {
-        left: 35px;
-        height: 22px;
-        width: 22px;
+    .issuance_WPC_achievement h2 {
+        font-size: 26px;
+        font-weight: 700;
     }
+
+    .data-chart-tabs .nav .nav-link.active{
+        padding: 8px 12px;
+    }
+
+    .data-chart-tabs .nav .nav-link{
+        padding: 8px 12px;
+    }
+
+    .raise-ticket {
+        position: fixed;
+        bottom: 30px;
+        right: 25px;
+    }
+
+    .issuance_target h5 {
+        font-size: 22px;
+    }    
 
     .main-left-nav nav a {
-        padding: 15px 10px 15px 75px;
-        font-size: 16px;
-    }
-
-    .nav-link-logout{
-        margin: 30px auto 0;
+        padding: 14px 10px 14px 75px;
+        font-size: 14px;
     }
 
     .main-left-nav nav .active-nav a:before {
@@ -60,10 +60,42 @@
         width: 22px;
     }
 
-    .tabs-mtd-ytd-monthly {
-        padding: 20px 12px;
+    .main-left-nav nav a:before {
+        left: 35px;
+        height: 22px;
+        width: 22px;
     }
 
+    .main-left-nav .logo img {
+        width: 55%;
+        left: -20px;
+        position: relative;
+    }
+
+
+}
+
+@media screen and (max-width: 1400px) {
+    .header-shot {
+        padding: 0 10px;
+    }
+
+    .inner-nav {
+        width: 280px;
+    }
+
+    .nav-link-logout{
+        margin: 30px auto 0;
+    }
+
+    .tabs-mtd-ytd-monthly {
+        padding: 20px 12px 10px 12px;
+    }
+
+    .tabs-mtd-ytd-monthly-content {
+        margin-top: 15px;
+    }
+    
     .business-shot-table-data {
         padding: 30px 15px;
     }
@@ -73,7 +105,7 @@
     }
 
     .four-boxes-rolling {
-        margin: 0 15px 30px 15px;
+        margin: 0 15px 15px 15px;
     }
 
     .Goalsheet_handalingUser {
@@ -154,24 +186,33 @@
     }
 
     .business-shot-table-data table tr th{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .business-shot-table-data table tr td {
-        font-size: 14px;
+        font-size: 12px;
     }    
 
     .wpc-info-number {
         margin: 0 15px 20px 15px;
+        padding: 12px;
     }
 
     .wpc-info-number p {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .wpc-info-number p img{
+        width: 18px;
     }
 
     .header-shot .heading1 {
-        font-size: 28px;
+        font-size: 26px;
         margin-bottom: 4px;
+    }
+
+    .header-shot .last-date{
+        font-size: 12px;
     }
 
     .footer-business-shot p {
@@ -181,6 +222,10 @@
 
     #clickshow-table {
         font-size: 16px;
+    }
+
+    .user-info-dropdown p {
+        font-size: 12px;
     }
 
 
@@ -270,7 +315,7 @@
     }
 
     .show-user-details-in-mobile-nav span{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
         text-align: left;
         color: #ffffff;
@@ -292,7 +337,7 @@
     }
     
     .show-user-details-in-mobile-nav p{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
         text-align: left;
         color: #ffffff9c;
@@ -304,6 +349,8 @@
 
     .active-dropdown .dropdown-arrow{
         background-image: url(../images/dropdown-arrow.svg);
+        width: 18px;
+        height: 18px;
     }
 
     .nav-open-close-btn{
@@ -513,9 +560,9 @@
     .nav-link-logout:before {
         background-image: url(../images/nav-icons/mobile-logout.png);
         left: 75px !important;
-        height: 36px !important;
-        width: 36px !important;
-        top: 15px !important;
+        height: 26px !important;
+        width: 26px !important;
+        top: 12px !important;
     }
 
     .main-left-nav nav a:after {
@@ -684,7 +731,7 @@
 
     .selected-value {
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .custom-select {
@@ -1447,16 +1494,17 @@
     }
 
     .raise-ticket{
-        bottom: 100px;
+        bottom: 90px;
         right: 10px;
+        padding: 8px 15px;
     }
 
     .raise-issue-text{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .raise-issue-text img{
-        width: 30px;
+        width: 25px;
     }
 }
 

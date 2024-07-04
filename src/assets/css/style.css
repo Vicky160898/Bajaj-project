@@ -21,7 +21,7 @@
 
 body {
     font-family: 'Exo', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
@@ -81,7 +81,7 @@ main {
     position: static;
     height: 100%;
     overflow-y: auto;
-    width: 345px;
+    width: 330px;
     /* transition: all 0.1s ease; */
     padding-bottom: 40px;
 }
@@ -119,14 +119,14 @@ main {
 .main-left-nav nav a {
     text-decoration: none;
     color: #001F33;
-    padding: 18px 10px 18px 108px;
+    padding: 16px 10px 16px 108px;
     /* transition: all 0.1s ease; */
     font-stretch: normal;
     font-style: normal;
     display: block;
     font-family: Exo;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -148,8 +148,8 @@ main {
 }
 
 .main-left-nav nav a:before {
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
     background-repeat: no-repeat;
     left: 65px;
     background-size: contain;
@@ -160,8 +160,8 @@ main {
 }
 
 .main-left-nav nav .active-nav a:before {
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
     background-repeat: no-repeat;
     left: 65px;
     background-size: contain;
@@ -265,19 +265,19 @@ main {
     background: #D31C1C1A !important;
     width: 210px;
     text-align: center !important;
-    padding: 19px 0px 19px 25px !important;
+    padding: 16px 0px 16px 25px !important;
     border-radius: 20px;
     border: none !important;
     position: relative;
-    margin: 50px auto 0;
+    margin: 40px auto 0;
 }
 
 .nav-link-logout:before {
     background-image: url(../images/nav-icons/logout.png);
     left: 50px !important;
-    height: 30px !important;
-    width: 30px !important;
-    top: 16px;
+    height: 26px !important;
+    width: 26px !important;
+    top: 15px;
 }
 
 .mobile-app-version {
@@ -318,7 +318,7 @@ main {
 }
 
 .header-shot .heading1 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0em;
@@ -356,7 +356,7 @@ main {
     border: 0.5px solid #f3f9fc82;
     border-radius: 16px;
     padding: 0px 15px;
-    height: 56px;
+    height: 52px;
     display: flex;
     align-items: center;
     position: relative;
@@ -417,7 +417,7 @@ main {
     margin-right: 12px;
     padding: 6px;
     border-radius: 30px;
-    height: 56px;
+    height: 52px;
     align-content: center;
     align-items: center;
 }
@@ -427,7 +427,7 @@ main {
 }
 
 .data-chart-tabs .nav .nav-link {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 0em;
@@ -446,7 +446,7 @@ main {
     background: linear-gradient(180deg, #FF834E 0%, #FF5B15 100%);
     box-shadow: 0px 7px 9px 0px #FF5F1A29;
     border-radius: 30px;
-    padding: 11px 16px;
+    padding: 10px 16px;
     font-weight: 600;
 }
 
@@ -465,7 +465,7 @@ main {
 .select-button {
     width: auto;
     background-color: #fff;
-    padding: 16px 40px 16px 20px;
+    padding: 14px 40px 14px 20px;
     border-radius: 30px;
     border: none;
     margin: 7px 0px;
@@ -488,7 +488,7 @@ main {
     text-overflow: ellipsis;
     padding-right: 15px;
     color: #001f3376;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -498,8 +498,8 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     position: absolute;
     right: 15px;
 }
@@ -538,13 +538,13 @@ main {
 
 .select-dropdown li label {
     width: 100%;
-    padding: 12px 10px;
+    padding: 8px 10px;
     cursor: pointer;
     display: flex;
     gap: 1rem;
     align-items: center;
     font-family: Exo;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
@@ -584,7 +584,7 @@ main {
 
 .select-dropdown input[type="radio"]+label {
     position: relative;
-    padding-left: 45px;
+    padding-left: 32px;
     cursor: pointer;
     display: inline-block;
     line-height: 20px;
@@ -593,10 +593,10 @@ main {
 .select-dropdown input[type="radio"]+label:before {
     content: '';
     position: absolute;
-    left: 15px;
-    top: 11px;
-    width: 20px;
-    height: 20px;
+    left: 10px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
     border: 1.5px solid #EF860A;
     border-radius: 50%;
     background-color: #fff;
@@ -604,9 +604,9 @@ main {
 
 .select-dropdown input[type="radio"]:checked+label:before {
     background-color: #ffffff;
-    width: 22px;
-    height: 22px;
-    border: 6px solid #F58220;
+    width: 16px;
+    height: 16px;
+    border: 4px solid #F58220;
 }
 
 .custom-select.active .dropdown-arrow {
@@ -650,7 +650,7 @@ main {
     margin-right: 15px;
     padding: 6px;
     border-radius: 30px;
-    height: 54px;
+    height: 50px;
     align-content: center;
     align-items: center;
     border: 1px solid #001F331A;
@@ -658,7 +658,7 @@ main {
 }
 
 .tabs-mtd-ytd-monthly .nav .nav-link {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 0em;
@@ -678,7 +678,7 @@ main {
     background: linear-gradient(180deg, #FF834E 0%, #FF5B15 100%);
     box-shadow: 0px 7px 9px 0px #FF5F1A29;
     border-radius: 30px;
-    padding: 11px 20px;
+    padding: 10px 20px;
     font-weight: 600;
     color: #ffffff;
 }
@@ -697,7 +697,7 @@ main {
 }
 
 .footer-business-shot p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0em;
     text-align: left;
@@ -733,7 +733,7 @@ main {
 }
 
 .head-icon-text {
-    font-size: 18px !important;
+    font-size: 16px !important;
     font-weight: 700 !important;
     line-height: 24px !important;
     letter-spacing: 0em !important;
@@ -744,46 +744,46 @@ main {
 
 .head-icon-text:before {
     content: "";
-    width: 6px;
-    height: 42px;
+    width: 5px;
+    height: 28px;
     background-color: #EF860A;
     position: absolute;
     left: 0px;
-    top: 22px;
+    top: 20px;
     border-radius: 0 10px 10px 0;
 }
 
 .head-icon-text img {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     margin-right: 5px;
 }
 
 .business-shot-table-data table tr th {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
     color: #001F33;
-    padding: 20px 20px;
+    padding: 14px 20px;
 }
 
 .business-shot-table-data table tr td {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: right;
     color: #001F33;
-    padding: 20px 20px;
+    padding: 15px 20px;
 }
 
 /* ANKS CSS */
 
 .issuance_WPC_targets {
-    padding: 30px;
+    padding: 25px;
     border-radius: 32px;
     background: url(../images/wave.svg) no-repeat top left, #005DAC;
     background-size: cover;
@@ -807,10 +807,11 @@ main {
     display: flex;
     flex-direction: column;
     line-height: 48px;
+    font-size: 16px;
 }
 
 .issuance_WPC_achievement h2 {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -860,7 +861,7 @@ main {
     color: #7e8d98;
     font-size: 18px;
     font-weight: 600;
-    min-height: 202px;
+    min-height: 190px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -873,11 +874,15 @@ main {
     color: #001F33;
 }
 
+.issuance_WPC_targeted_data p{
+    font-size: 14px;
+}
+
 .issuance_WPC_targeted_data .icon {
     border: 1px solid #e7e7e7;
     border-radius: 50px;
-    width: 48px;
-    height: 48px;
+    width: 46px;
+    height: 46px;
     box-shadow: 0px 3px 20px 0px #2c2c2c1f;
     display: inline-block;
     margin-bottom: 16px;
@@ -900,7 +905,7 @@ main {
 }
 
 .issuance_WPC_targeted_data .value {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: #001F33;
     display: flex;
@@ -921,7 +926,7 @@ main {
 }
 
 .two-boxes-rolling-ytd .issuance_WPC_targeted_data {
-    min-height: 210px;
+    min-height: 190px;
 }
 
 #clickshow-table {
@@ -934,7 +939,7 @@ main {
     padding: 0;
     transition: background-color 0.3s ease;
     font-family: Exo;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0em;
@@ -973,7 +978,7 @@ main {
     display: flex;
     justify-content: flex-end;
     border: none;
-    padding: 25px !important;
+    padding: 20px !important;
 }
 
 .data-table-show-hide table tr td {
@@ -1009,7 +1014,7 @@ main {
 }
 
 .monthly-select .select-button {
-    padding: 7px 10px 7px 15px;
+    padding: 5px 10px 5px 15px;
     justify-content: flex-start;
     font-weight: 400;
     width: 189px;
@@ -1046,30 +1051,30 @@ main {
 }
 
 .graph-tabs-main-head {
-    font-size: 20px !important;
+    font-size: 16px !important;
     font-weight: 700 !important;
     line-height: 24px !important;
     letter-spacing: 0em !important;
     text-align: left !important;
     color: #005DAC !important;
     position: relative;
-    padding: 25px 30px 8px 30px;
+    padding: 20px 30px 8px 30px;
 }
 
 .graph-tabs-main-head:before {
     content: "";
     width: 6px;
-    height: 42px;
+    height: 32px;
     background-color: #EF860A;
     position: absolute;
     left: 0px;
-    top: 22px;
+    top: 20px;
     border-radius: 0 10px 10px 0;
 }
 
 .graph-tabs-main-head img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     margin-right: 5px;
 }
@@ -1110,7 +1115,7 @@ main {
     transition: unset;
     justify-content: center;
     font-family: Exo;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 2;
     letter-spacing: 0em;
@@ -1146,7 +1151,7 @@ main {
 }
 
 .wpc-premium .totsl-premium-para {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 21px;
     letter-spacing: 0em;
@@ -1280,7 +1285,7 @@ main {
 }
 
 .Goalsheet_details_Card .value span i.bi.bi-chevron-right::before {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700 !important;
     vertical-align: baseline !important;
 }
@@ -1308,7 +1313,7 @@ main {
 }
 
 .Goalsheet_handalingUser h6 span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #7f8e98;
@@ -1482,7 +1487,7 @@ main {
     position: relative;
     text-align: left;
     width: fit-content;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #7f8e98;
@@ -1514,7 +1519,7 @@ main {
 }
 
 .topstatus div>h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
@@ -1525,7 +1530,7 @@ main {
 
 .topstatus div>p {
     color: #001f33;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0em;
@@ -1570,7 +1575,7 @@ main {
 }
 
 .Incentive-Matrix h4 span {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 48px;
     display: flex;
@@ -1597,7 +1602,7 @@ main {
 }
 
 .insentive_values h4 {
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 18px;
     font-weight: 600;
     line-height: normal;
@@ -1696,7 +1701,7 @@ main {
     border: 1px solid #001F331A;
     color: #001F33;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
@@ -1733,7 +1738,7 @@ main {
     display: flex;
     justify-content: center;
     font-family: Exo;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 0em;
@@ -1771,7 +1776,7 @@ main {
 .filter-box h3 {
     font-weight: 700;
     padding-left: 1px;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 12px;
     margin-top: 12px;
 }
@@ -1825,7 +1830,7 @@ main {
 
 .filter-data-issued p {
     color: #001f33;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0em;
@@ -1928,7 +1933,7 @@ main {
 
 .comp-box h2 {
     color: #7e8d98;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding-bottom: 8px;
     padding-top: 10px;
@@ -1936,7 +1941,7 @@ main {
 
 .comp-box span {
     color: #001F33;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     padding-bottom: 8px;
 }
@@ -1982,7 +1987,7 @@ main {
     transition: unset;
     justify-content: center;
     font-family: Exo;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 2;
     letter-spacing: 0em;
@@ -2034,7 +2039,7 @@ main {
 }
 
 .Persistency_monthrolling h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -2333,7 +2338,7 @@ main {
 }
 
 .user-info h2{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 43px;
     letter-spacing: 0em;
@@ -2421,7 +2426,7 @@ main {
 .active-dropdown{
     background: linear-gradient(180deg, #FF834E 0%, #FF5B15 100%);
     border: 1px solid #FFFFFF;
-    padding: 15px 30px 15px 20px;
+    padding: 13px 30px 13px 20px;
 }
 
 .active-dropdown .selected-value{
@@ -2443,8 +2448,8 @@ main {
 }
 
 .tooltip-btn img{
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 
 .tooltip-inner{
@@ -2490,7 +2495,7 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .table-tooltip{
@@ -2516,11 +2521,16 @@ main {
     display: flex;
     align-items: center;
     gap: 6px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     text-align: left;
     color: #ffffff;
+}
+
+.raise-issue-text img{
+    width: 30px;
+    height: 30px;
 }
 
 .welcome-login{
@@ -2534,10 +2544,10 @@ main {
 }
 
 .login-box{
-    padding: 40px;
+    padding: 30px;
     border: 1px solid #001F331A;
     box-shadow: 4px 8px 24px 0px #0000000D;
-    max-width: 517px;
+    max-width: 475px;
     margin: 0 auto;
     border-radius: 32px;
     background: url(../images/target_bg.png) no-repeat top center, #F3F9FC;
@@ -2549,24 +2559,24 @@ main {
 
 .login-box h1{
     font-family: Exo;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 42.53px;
     text-align: center;
     color: #005DAC;
-    margin-bottom: 35px;
-    padding-bottom: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #001F330D;
 }
 
 .login-box p{
     font-family: Exo;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 24px;
     text-align: left;
     color: #001F33;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .login-box .input-code {
@@ -2577,16 +2587,16 @@ main {
     border: 1px solid #001F331A;
     display: block;
     width: 100%;
-    height: 52px;
+    height: 48px;
     border-radius: 30px;
     padding: 5px 20px 5px 55px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .login-box .input-code .user-emp-icon{
     background-image: url(../images/icons/emp-code.svg);
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     background-size: contain;
     position: absolute;
     top: 12px;
@@ -2600,13 +2610,13 @@ main {
     width: 100%;
     border-radius: 30px;
     font-family: Exo;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 20px;
     text-align: center;
     color: #ffffff;
     border: 2px solid #005DAC;
-    height: 52px;
+    height: 48px;
     padding: 12px;
     transition: 0.25s;
 }
@@ -2619,12 +2629,12 @@ main {
 
 .login-box span{
     font-family: Exo;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 24px;
     text-align: center;
     color: #001f3380;
-    margin-top: 14px;
+    margin-top: 10px;
     display: block;
 }
 
@@ -2654,15 +2664,15 @@ main {
 }
 
 .issuance_premium p{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .issuance_target p{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .financial-year{
-    width: 300px !important;
+    width: 280px !important;
 }
 
 .financial-year .select-button {
