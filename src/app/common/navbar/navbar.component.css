@@ -60,6 +60,36 @@
     padding: 15px 15px 20px 5px;
 }
 
+.scroll-to-top {
+    position: fixed;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 4px;
+    background-color: #002c48;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 125px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.scroll-to-top img{
+    width: 20px;
+    height: 20px;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+}
+
 @media screen and (max-width: 1400px) {
     .nav-width .logo {
         padding: 25px 15px 20px 25px;
@@ -136,12 +166,12 @@
 
     .nav-width .logo .image-logo{
         content: url(../../../assets/images/bajaj-logo.svg);
-        width: 50%;
+        width: 40%;
         margin-top: 15px;
     }
 
     .nav-width .logo {
-        padding: 25px 15px 20px 5px !important;
+        padding: 5px 15px 15px 5px !important;
     }
 
     .nav-width a{
@@ -174,7 +204,19 @@
     }
 
     .nav-width .nav-link-logout::before{
-        left: 75px !important;
+        left: 36% !important;
+    }
+
+    .scroll-to-top {
+        width: 105px;
+        font-size: 12px;
+        bottom: 95px;
+        left: -10%;
+    }
+
+    .scroll-to-top img{
+        width: 18px;
+        height: 18px;
     }
 }
 
