@@ -1,14 +1,15 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
+
 declare var bootstrap: any;
 
 @Component({
-  selector: 'app-performancematrics',
-  templateUrl: './performancematrics.component.html',
-  styleUrl: './performancematrics.component.css'
+  selector: 'app-user-information',
+  templateUrl: './user-information.component.html',
+  styleUrl: './user-information.component.css'
 })
-export class PerformancematricsComponent {
+export class UserInformationComponent {
   isUserVisible: boolean = false;
   isMobile: boolean = false;
   isNavbar: boolean = false;

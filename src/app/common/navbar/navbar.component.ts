@@ -10,6 +10,8 @@ export class NavbarComponent {
   isNavbar: boolean = false;
   isModel: boolean = false;
 
+  showButton = false;
+
   constructor() {}
 
   openModal() {
@@ -49,4 +51,15 @@ export class NavbarComponent {
     this.isNavWidth = !this.isNavWidth;
     this.isLayOver = !this.isLayOver;
   }
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    // Check if the scroll position is more than 500px
+    this.showButton = window.pageYOffset > 500;
+  }
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  
 }

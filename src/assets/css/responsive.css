@@ -8,6 +8,15 @@
         padding: 10px 5px;
     }
 
+    .rolling-tabs-issuance .nav .nav-link {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .rolling-tabs-issuance .nav .nav-link.active {
+        padding: 10px 5px;
+    }
+
     .Incentive-Matrix h4 span {
         font-size: 28px;
     }
@@ -72,10 +81,6 @@
         position: relative;
     }
 
-
-}
-
-@media screen and (max-width: 1400px) {
     .header-shot {
         padding: 0 10px;
     }
@@ -200,6 +205,7 @@
 
     .wpc-info-number p {
         font-size: 14px;
+        display: block;
     }
 
     .wpc-info-number p img{
@@ -228,10 +234,18 @@
         font-size: 12px;
     }
 
+    .team-orange-info {
+        margin: 0 25px 10px 20px !important;
+    }
+    
+    
+    
 
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    
+}
 
 @media screen and (max-width: 992px) {
 
@@ -306,7 +320,7 @@
     .show-user-details-in-mobile-nav{
         background-color: #005DAC;
         width: 90%;
-        margin: 20px auto 15px;
+        margin: 15px auto 15px;
         display: flex;
         align-items: flex-start;
         padding: 10px 10px;
@@ -416,14 +430,14 @@
         position: absolute;
         z-index: 9;
         right: 15px;
-        top: 45px;
+        top: 35px;
         display: block;
         padding: 10px;
     }
 
     .tooltip-btn{
         right: 15px;
-        top: 25px;
+        top: 15px;
     }
 
     .tooltip-inner{
@@ -434,9 +448,10 @@
 
     .main-right-content {
         width: 100%;
-        padding: 40px 0px 80px 0px;
+        padding: 40px 0px 0px 0px;
         height: 100%;
         background-image: none;
+        border-bottom: 60px solid #fff;
     }
 
     .main-left-nav .logo {
@@ -457,16 +472,24 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: auto;
-        width: 290px;
-        position: absolute;
+        /* height: 100%; */
+        height: 100%;
+        width: 100%;
+        /* position: absolute; */
+        overflow: auto;
+        position: fixed;
         top: 0;
         left: 0px;
         background-color: #ffffff;
         box-shadow: 0px 3px 6px 0px rgb(128 128 128 / 21%);
-        z-index: 1;
+        /* z-index: 1; */
+        z-index: 9999;
         padding: 0;
         padding: 0px;
+    }
+
+    .mix-product-full ul{
+        gap: 25px;
     }
 
     .main-left-nav nav ul.new-mobile-block{
@@ -709,8 +732,8 @@
         background-color: #ffffff;
         box-shadow: 0px 3px 6px 0px rgb(128 128 128 / 21%);
         /* display: block; */
-        height: 85%;
-        left: 0;
+        height: 100%;
+        right: 0;
         top: 0;
         margin-top: 0;
         width: 264px;
@@ -810,8 +833,8 @@
     }
 
     .head-icon-text img {
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
     }
 
     .head-icon-text:before {
@@ -923,13 +946,17 @@
         line-height: 22px;
     }
 
+    .new-search-filter {
+        padding: 0 0px 15px 0px;
+    }    
+
     .monthly-select {
         position: relative;
         right: -15px;
         top: 0;
         width: 160px;
         padding: 0;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .year-select-too .select-button {
@@ -976,7 +1003,7 @@
 
     .graph-tabs-main-head {
         font-size: 14px !important;
-        padding: 18px 30px 3px 20px;
+        padding: 18px 30px 10px 20px;
     }
 
     .graph-tabs-main-head:before {
@@ -997,6 +1024,22 @@
     }
 
     .graph-tabs-issuance .nav {
+        padding: 0;
+    }
+
+    .rolling-tabs-issuance .nav .nav-link.active {
+        font-size: 13px;
+        padding: 10px 5px;
+        border-bottom: 2px solid #EF860A;
+    }
+
+    .rolling-tabs-issuance .nav .nav-link {
+        font-size: 13px;
+        border-bottom: 2px solid #ffffff;
+        line-height: 18px;
+    }
+
+    .rolling-tabs-issuance .nav {
         padding: 0;
     }
 
@@ -1087,10 +1130,6 @@
         width: 40px;
         height: 40px;
         background-size: 50%;
-    }
-
-    .topstatus {
-        /* display: block; */
     }
 
     .vertical-user-details {
@@ -1506,6 +1545,104 @@
     .raise-issue-text img{
         width: 25px;
     }
+
+    .performance-matrix-tabs .nav .nav-link {
+        padding: 4px 0px 9px 0px;
+        font-size: 12px;
+    }
+
+    .performance-matrix-tabs .nav .nav-link.active {
+        padding: 4px 0px 9px 0px;
+        
+    }
+
+    .performance-matrix-tabs{
+        padding: 0px 0px 5px 0px;
+    }
+
+    .performance-matrix-tabs .nav .nav-link img {
+        width: 18px;
+        height: 18px;
+    }   
+
+    .performance-matrix-tabs .nav .nav-link.active img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .month-right-side{
+        top: -10px !important;
+        margin-bottom: 0;
+    }
+    
+    .team-orange-info {
+        margin: 0 15px 40px 10px !important;
+    }
+
+    .rolling-tabs-issuance .nav-item {
+        width: 25%;
+    }
+    
+    .tab-per-rolling-data {
+        padding: 5px 0px 10px 0px;
+    }
+
+    .rolling-tabs-inner-content {
+        padding: 20px 12px;
+    }
+
+    .team-orange-info {
+        margin: 5px 5px 5px 0px !important;
+    }
+
+    .padding0{
+        padding: 0 10px;
+    }
+
+    .tab-per-rolling-data{
+        padding: 5px 0px 10px 0px !important;
+    }
+
+    .rolling-tabs-issuance {
+        padding: 5px 0px;
+    }
+
+    .table-p2 table tr td {
+        padding: 8px 15px !important;
+    }
+
+    .table-p2{
+        padding: 0;
+    }
+
+    .team-yellow-info {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .team-heading-number {
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .team-heading-number h3 {
+        font-size: 16px;
+    }
+
+    .mtd-data-heading-comparision {
+        font-size: 16px;
+        margin: 0px 10px 15px 0px;
+    }
+
+    .back-icon-left{
+        position: relative;
+        left: 45px;
+        top: -3px;
+    }
+
+    .user-info-back img{
+        width: 32px;
+        height: 32px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1534,6 +1671,19 @@
         left: 10px;
     }
 
+    .rolling-tabs-issuance .nav-item {
+        width: 50%;
+        display: block;
+    }
+    
+    .no-tabs-graph .d-flex{
+        display: block !important;
+    }
+
+    .product-mix-info-right{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 576px) {}

@@ -29,16 +29,14 @@
             <span>Mr. Durgesh Rai</span>
             <p>AM - 83336</p>
           </div>
-          <div class="user-active-mobile">active</div>
+          <div class="user-active-mobile">Active</div>
         </div>
       </li>
 
       <li routerLinkActive="active-nav" [routerLink]="['/business']">
         <a class="nav-link-business">My Business</a>
       </li>
-      <li
-        routerLinkActive="active-nav"
-        [routerLink]="['/performance-matrices']">
+      <li routerLinkActive="active-nav" [routerLink]="['/performance-matrices']">
         <a class="nav-link-metrics">Performance Metrics</a>
       </li>
 
@@ -125,6 +123,11 @@
       </ul>
     </div>
   </div>
+
+  <!-- scroll -->
+  <button *ngIf="showButton" (click)="scrollToTop()" class="scroll-to-top">
+    <img src="../../../assets/images/icons/uparrow.png" alt="" /> Back to Top
+  </button>
 
   <!-- Raise an Issue -->
   <div class="raise-ticket" (click)="openModal()">

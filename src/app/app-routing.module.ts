@@ -11,6 +11,9 @@ import { PerformancematricsComponent } from "./pages/performancematrics/performa
 import { LoginComponent } from "./pages/login/login.component";
 import { FaqComponent } from "./pages/faq/faq.component";
 import { ProfileComponent } from "./pages/profile/profile.component";
+import { AxisBankComponent } from "./pages/business/axis-bank/axis-bank.component";
+import { UserInformationComponent } from './pages/performancematrics/user-information/user-information.component';
+
 
 const routes: Routes = [
   { path: "business", component: BusinessComponent },
@@ -24,6 +27,8 @@ const routes: Routes = [
   { path: "dead-business", component: DeadComponent },
   { path: "faq", component: FaqComponent },
   { path: "profile", component: ProfileComponent },
+  { path: "axis-bank", component: AxisBankComponent },
+  { path: "user-information", component: UserInformationComponent },
   { path: "**", redirectTo: "/" },
 ];
 
