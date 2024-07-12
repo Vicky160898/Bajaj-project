@@ -489,8 +489,8 @@
                                                                     alt=""> Issuance
                                                             </th>
                                                             <th class="table-toggle">
-                                                                <button id="clickshow-table" (click)="toggle(0)">
-                                                                    View Details
+                                                                <button id="clickshow-table" (click)="toggle(0)" [ngClass]="{'hide-details': toggles[0].state}">
+                                                                    <!-- View Details -->
                                                                     <span id="table-icon-issuance"
                                                                         class="table-open table-close">
                                                                         <img src="../../../assets/images/dropdown-arrow.svg"
@@ -584,8 +584,8 @@
                                                                     alt=""> Login
                                                             </th>
                                                             <th class="table-toggle">
-                                                                <button id="clickshow-table" (click)="toggle(1)">
-                                                                    View Details
+                                                                <button id="clickshow-table" (click)="toggle(1)" [ngClass]="{'hide-details': toggles[1].state}">
+                                                                    <!-- View Details -->
                                                                     <span id="table-icon-login"
                                                                         class="table-open table-close">
                                                                         <img src="../../../assets/images/dropdown-arrow.svg"
@@ -679,8 +679,8 @@
                                                                     alt=""> Quality
                                                             </th>
                                                             <th class="table-toggle">
-                                                                <button id="clickshow-table" (click)="toggle(2)">
-                                                                    View Details
+                                                                <button id="clickshow-table" (click)="toggle(2)" [ngClass]="{'hide-details': toggles[2].state}">
+                                                                    <!-- View Details -->
                                                                     <span id="table-icon-quality"
                                                                         class="table-open table-close">
                                                                         <img src="../../../assets/images/dropdown-arrow.svg"
@@ -754,8 +754,8 @@
                                                                     alt=""> Product Mix
                                                             </th>
                                                             <th class="table-toggle">
-                                                                <button id="clickshow-table" (click)="toggle(3)">
-                                                                    View Details
+                                                                <button id="clickshow-table" (click)="toggle(3)" [ngClass]="{'hide-details': toggles[3].state}">
+                                                                    <!-- View Details -->
                                                                     <span id="table-icon-product-mix"
                                                                         class="table-open table-close">
                                                                         <img src="../../../assets/images/dropdown-arrow.svg"
@@ -831,8 +831,8 @@
                                                                     alt=""> Other
                                                             </th>
                                                             <th class="table-toggle">
-                                                                <button id="clickshow-table" (click)="toggle(4)">
-                                                                    View Details
+                                                                <button id="clickshow-table" (click)="toggle(4)" [ngClass]="{'hide-details': toggles[4].state}">
+                                                                    <!-- View Details -->
                                                                     <span id="table-icon-other"
                                                                         class="table-open table-close">
                                                                         <img src="../../../assets/images/dropdown-arrow.svg"

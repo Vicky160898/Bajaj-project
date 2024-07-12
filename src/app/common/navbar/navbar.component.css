@@ -179,16 +179,16 @@
         text-align: left !important;
         opacity: 1 !important;
         font-size: 14px !important;
-        border: none !important;
+        /* border: none !important; */
         border-bottom: 1px solid #001F331A !important;
     }
 
     .nav-width .active-nav a:before {
-        left: 6px;
+        left: 10px;
     }
     
     .nav-width a:before{
-        left: 6px;
+        left: 14px;
     }
 
     .nav-width .nav-link-logout{

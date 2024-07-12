@@ -506,7 +506,7 @@
         font-size: 16px;
         border: none;
         border-bottom: 1px solid #001F331A;
-        margin: 0 12px;
+        /* margin: 0 12px; */
     }
 
     .nav-link-profile {
@@ -593,8 +593,8 @@
         height: 18px;
         width: 18px;
         background-repeat: no-repeat;
-        right: 3px;
-        top: 17px;
+        right: 15px;
+        top: 14px;
         background-size: contain;
         content: "";
         display: block;
@@ -935,6 +935,15 @@
         font-size: 14px;
         top: 18px;
         right: 20px;
+    }
+
+    .hide-details::after{
+        font-size: 14px;
+        right: 0;
+    }
+
+    #clickshow-table::before {
+        right: 6px;
     }
 
     .footer-business-shot {
@@ -1643,6 +1652,11 @@
         height: 32px;
     }
 
+    .main-left-nav nav .active-nav a {
+        opacity: 1;
+        background-color: #005dac24;
+        border-left: 5px solid #005DAC;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1684,6 +1698,8 @@
         margin-left: 30px;
         margin-top: 30px;
     }
+
+    
 }
 
 @media screen and (max-width: 576px) {}
