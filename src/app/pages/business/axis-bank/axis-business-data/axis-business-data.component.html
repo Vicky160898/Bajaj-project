@@ -359,6 +359,7 @@
                                         <div class="monthly-select financial-year">
                                             <div class="custom-select">
                                                 <button class="select-button" (click)="toggleDropdown(2)"
+                                                    [ngClass]="{'arrow-up': togglesdrop[2].state}"
                                                     aria-labelledby="select button"
                                                     aria-haspopup="listbox" aria-expanded="false"
                                                     aria-controls="select-dropdown">
@@ -916,6 +917,7 @@
                                         <div class="monthly-select mnth-year-select-too">
                                             <div class="custom-select">
                                                 <button class="select-button" (click)="toggleDropdown(0)"
+                                                    [ngClass]="{'arrow-up': togglesdrop[0].state}"
                                                     aria-labelledby="select button"
                                                     aria-haspopup="listbox" aria-expanded="false"
                                                     aria-controls="select-dropdown">
@@ -979,6 +981,7 @@
                                         <div class="monthly-select year-select-too">
                                             <div class="custom-select">
                                                 <button class="select-button" (click)="toggleDropdown(1)"
+                                                    [ngClass]="{'arrow-up': togglesdrop[1].state}"
                                                     aria-labelledby="select button"
                                                     aria-haspopup="listbox" aria-expanded="false"
                                                     aria-controls="select-dropdown">

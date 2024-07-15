@@ -383,6 +383,10 @@ main {
     color: #ffffff9c;
 }
 
+.user-info-dropdown .arrow-up img{
+    transform: rotate(180deg);
+}
+
 .user-info-show-dropdown{
     background-color: #ffffff;
     position: absolute;
@@ -494,7 +498,6 @@ main {
 }
 
 .dropdown-arrow {
-    transition: transform ease-in-out 0.3s;
     background-image: url(../images/dropdown-arrow.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -3344,4 +3347,18 @@ main {
     display: flex; 
 }
 
+.arrow-up .dropdown-arrow{
+    transform: rotate(180deg);
+}
 
+.filter-policies .arrow-up .icon-drop{
+    transform: rotate(180deg);
+}
+
+/* .arrow-right{
+    transform: rotate(180deg);
+}
+
+.nav-open-close-btn{
+
+} */

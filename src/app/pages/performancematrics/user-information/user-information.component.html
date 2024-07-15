@@ -100,6 +100,7 @@
                                                             <div class="monthly-select mnth-year-select-too month-left-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(3)"
+                                                                        [ngClass]="{'arrow-up': toggles[3].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -163,6 +164,7 @@
                                                             <div class="monthly-select year-select-too month-middle-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(4)"
+                                                                        [ngClass]="{'arrow-up': toggles[4].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -194,6 +196,7 @@
                                                             <div class="monthly-select year-select-too month-right-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(5)"
+                                                                        [ngClass]="{'arrow-up': toggles[5].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -595,6 +598,7 @@
                                                             <div class="monthly-select year-select-too">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(6)"
+                                                                        [ngClass]="{'arrow-up': toggles[6].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -952,6 +956,7 @@
                                                             <div class="monthly-select financial-year month-middle-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(7)"
+                                                                        [ngClass]="{'arrow-up': toggles[7].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -983,6 +988,7 @@
                                                             <div class="monthly-select year-select-too month-right-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(8)"
+                                                                        [ngClass]="{'arrow-up': toggles[8].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -1434,6 +1440,7 @@
                                                             <div class="monthly-select mnth-year-select-too month-left-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(9)"
+                                                                        [ngClass]="{'arrow-up': toggles[9].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -1497,6 +1504,7 @@
                                                             <div class="monthly-select year-select-too month-middle-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(10)"
+                                                                        [ngClass]="{'arrow-up': toggles[10].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -1528,6 +1536,7 @@
                                                             <div class="monthly-select year-select-too month-right-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(11)"
+                                                                        [ngClass]="{'arrow-up': toggles[11].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -1585,7 +1594,7 @@
                                                                                     placeholder="Search for policies or anything">
                                                                             </div>
                                                                             <div class="filter-policies">
-                                                                                <button (click)="togglesSearchFilter(0)"><img
+                                                                                <button (click)="togglesSearchFilter(0)" [ngClass]="{'arrow-up': togglesSearch[0].state}"><img
                                                                                     src="../../../assets/images/icons/filter.png" alt=""
                                                                                     class="filter-icon"> Filters
                                                                                     <img src="../../../assets/images/dropdown-arrow.svg"
@@ -1732,7 +1741,7 @@
                                                                                     placeholder="Search for policies or anything">
                                                                             </div>
                                                                             <div class="filter-policies">
-                                                                                <button (click)="togglesSearchFilter(1)"><img
+                                                                                <button (click)="togglesSearchFilter(1)"  [ngClass]="{'arrow-up': togglesSearch[1].state}"><img
                                                                                         src="../../../assets/images/icons/filter.png" alt=""
                                                                                         class="filter-icon"> Filters
                                                                                     <img src="../../../assets/images/dropdown-arrow.svg"
@@ -1861,6 +1870,7 @@
                                                             <div class="monthly-select year-select-too">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(12)"
+                                                                        [ngClass]="{'arrow-up': toggles[12].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -1913,7 +1923,7 @@
                                                                                     placeholder="Search for policies or anything">
                                                                             </div>
                                                                             <div class="filter-policies">
-                                                                                <button (click)="togglesSearchFilter(2)"><img
+                                                                                <button (click)="togglesSearchFilter(2)" [ngClass]="{'arrow-up': togglesSearch[2].state}"><img
                                                                                         src="../../../assets/images/icons/filter.png" alt=""
                                                                                         class="filter-icon"> Filters
                                                                                     <img src="../../../assets/images/dropdown-arrow.svg"
@@ -2060,7 +2070,7 @@
                                                                                     placeholder="Search for policies or anything">
                                                                             </div>
                                                                             <div class="filter-policies">
-                                                                                <button (click)="togglesSearchFilter(3)"><img
+                                                                                <button (click)="togglesSearchFilter(3)" [ngClass]="{'arrow-up': togglesSearch[3].state}"><img
                                                                                         src="../../../assets/images/icons/filter.png" alt=""
                                                                                         class="filter-icon"> Filters
                                                                                     <img src="../../../assets/images/dropdown-arrow.svg"
@@ -2188,6 +2198,7 @@
                                                             <div class="monthly-select financial-year month-middle-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(13)"
+                                                                        [ngClass]="{'arrow-up': toggles[13].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -2219,6 +2230,7 @@
                                                             <div class="monthly-select year-select-too month-right-side">
                                                                 <div class="custom-select">
                                                                     <button class="select-button" (click)="toggleDropdown(14)"
+                                                                        [ngClass]="{'arrow-up': toggles[14].state}"
                                                                         aria-labelledby="select button"
                                                                         aria-haspopup="listbox" aria-expanded="false"
                                                                         aria-controls="select-dropdown">
@@ -2272,7 +2284,7 @@
                                                                                     placeholder="Search for policies or anything">
                                                                             </div>
                                                                             <div class="filter-policies">
-                                                                                <button (click)="togglesSearchFilter(4)"><img
+                                                                                <button (click)="togglesSearchFilter(4)" [ngClass]="{'arrow-up': togglesSearch[4].state}"><img
                                                                                         src="../../../assets/images/icons/filter.png" alt=""
                                                                                         class="filter-icon"> Filters
                                                                                     <img src="../../../assets/images/dropdown-arrow.svg"
@@ -2419,7 +2431,7 @@
                                                                                     placeholder="Search for policies or anything">
                                                                             </div>
                                                                             <div class="filter-policies">
-                                                                                <button (click)="togglesSearchFilter(5)"><img
+                                                                                <button (click)="togglesSearchFilter(5)" [ngClass]="{'arrow-up': togglesSearch[5].state}"><img
                                                                                         src="../../../assets/images/icons/filter.png" alt=""
                                                                                         class="filter-icon"> Filters
                                                                                     <img src="../../../assets/images/dropdown-arrow.svg"
@@ -2557,6 +2569,7 @@
                                             <div class="monthly-select year-select-too month-right-side">
                                                 <div class="custom-select">
                                                     <button class="select-button" (click)="toggleDropdown(7)"
+                                                        [ngClass]="{'arrow-up': toggles[7].state}"
                                                         aria-labelledby="select button"
                                                         aria-haspopup="listbox" aria-expanded="false"
                                                         aria-controls="select-dropdown">
@@ -2611,7 +2624,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th class="table-th-one">
-                                                            <div class="main-user-under no-under-user"> 
+                                                            <div class="main-user-under"> 
                                                                 <span class="user-name">Mr. Vedant Show</span>
                                                                 <div class="am-number">AM-255620 <span class="inactive">Inactive</span></div>
                                                             </div>
@@ -2626,7 +2639,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th class="table-th-one">
-                                                            <div class="main-user-under no-under-user"> 
+                                                            <div class="main-user-under"> 
                                                                 <span class="user-name">Mr. Vedant Show</span>
                                                                 <div class="am-number">AM-255620 <span class="active">Active</span></div>
                                                             </div>
@@ -2680,7 +2693,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th class="table-th-one">
-                                                            <div class="main-user-under no-under-user"> 
+                                                            <div class="main-user-under"> 
                                                                 <span class="user-name">Mr. Vedant Show</span>
                                                                 <div class="am-number">AM-255620 <span class="inactive">Inactive</span></div>
                                                             </div>
@@ -2695,7 +2708,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th class="table-th-one">
-                                                            <div class="main-user-under no-under-user"> 
+                                                            <div class="main-user-under"> 
                                                                 <span class="user-name">Mr. Vedant Show</span>
                                                                 <div class="am-number">AM-255620 <span class="active">Active</span></div>
                                                             </div>
@@ -2717,6 +2730,7 @@
                                     </div>
 
                                 </div>
+
 
                             </div>
                         </div>

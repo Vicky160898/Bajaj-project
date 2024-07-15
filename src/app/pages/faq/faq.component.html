@@ -24,7 +24,7 @@
                                                 <span>Mr. Durgesh Rai</span>
                                                 <p>AM - 83336</p>
                                             </div>
-                                            <div class="user-info-show" (click)="toggleUserInfoVisibility()"><img src="../../../assets/images/dropdown-arrow-white.svg"></div>
+                                            <div class="user-info-show" (click)="toggleUserInfoVisibility()" [class.arrow-up]="isUserVisible"> <img src="../../../assets/images/dropdown-arrow-white.svg"></div>
                                          </div>
 
                                          <div class="user-info-show-dropdown" [hidden]="!isUserVisible">

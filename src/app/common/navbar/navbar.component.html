@@ -2,7 +2,7 @@
 <div class="main-left-nav">
   <!-- nav open close -->
 
-  <a class="nav-open-close-btn" (click)="toggleNavLeft()">
+  <a class="nav-open-close-btn" (click)="toggleNavLeft()" [class.arrow-right]="isLayOver">
     <img src="../../../assets/images/nav-icons/mobile-menu-arrow.svg" alt="close-icon"/>
   </a>
 
