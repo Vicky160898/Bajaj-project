@@ -3355,10 +3355,10 @@ main {
     transform: rotate(180deg);
 }
 
-/* .arrow-right{
-    transform: rotate(180deg);
+.arrow-right{
+    transform: rotate(0) !important;
 }
 
 .nav-open-close-btn{
-
-} */
+    transform: rotate(180deg);
+}
