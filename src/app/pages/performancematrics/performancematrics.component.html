@@ -125,6 +125,12 @@
             <img src="../../../assets/images/icons/mobile-filter-trns.svg" alt="">
         </div>
 
+        <!-- mobile-user-details -->
+        <div class="mobile-user-details">
+            <h2><div class="user-name-only">Mr.Durgesh Rai</div> <span>(83336)</span></h2>
+            <h3><div class="user-name-only">Area Manager</div>. CABR</h3>
+        </div>
+
         <!-- Middle Data -->
 
         <div class="container-fluid white-main-content">
@@ -1721,7 +1727,7 @@
                                                                     <!-- new-table -->
                                                                     <div class="table-p2">
                                                                         <div class="table-responsive data-table-show-hide">
-                                                                            <table class="table table-stripeds table-hover align-middle">
+                                                                            <table class="table  align-middle">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th scope="col" class="table-tr-one">Name</th>
@@ -1736,7 +1742,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                <tr>
+                                                                                <tr [ngClass]="{'bg-color-show': togglestable[0].state}">
                                                                                     <th class="table-th-one">
                                                                                         <div class="get-user-under-details" (click)="togglesTable(0)" [ngClass]="{'show-under-user': togglestable[0].state}">+</div>
                                                                                         <div class="main-user-under"> 
@@ -1753,7 +1759,7 @@
                                                                                     <td>94.92%</td>
                                                                                     <td>94.92%</td>
                                                                                 </tr>
-                                                                                <tr *ngIf="togglestable[0].state === true">
+                                                                                <tr *ngIf="togglestable[0].state === true" class="bg-light-show-table">
                                                                                     <th class="table-th-one">
                                                                                         <!-- if you want user row add plus div here -->
                                                                                         <div class="main-user-under no-under-user"> 
@@ -1868,7 +1874,7 @@
                                                                     <!-- new-table -->
                                                                     <div class="table-p2">
                                                                         <div class="table-responsive data-table-show-hide">
-                                                                            <table class="table table-stripeds table-hover align-middle">
+                                                                            <table class="table align-middle">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th scope="col" class="table-tr-one">Name</th>
@@ -1879,7 +1885,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                <tr>
+                                                                                <tr [ngClass]="{'bg-color-show': togglestable[1].state}">
                                                                                     <th class="table-th-one">
                                                                                         <div class="get-user-under-details" (click)="togglesTable(1)" [ngClass]="{'show-under-user': togglestable[1].state}">+</div>
                                                                                         <div class="main-user-under"> 
@@ -1892,7 +1898,7 @@
                                                                                     <td>98</td>
                                                                                     <td>10.75%</td>
                                                                                 </tr>
-                                                                                <tr *ngIf="togglestable[1].state === true">
+                                                                                <tr *ngIf="togglestable[1].state === true" class="bg-light-show-table">
                                                                                     <th class="table-th-one">
                                                                                         <!-- if you want user row add plus div here -->
                                                                                         <div class="main-user-under no-under-user"> 
@@ -2049,7 +2055,7 @@
                                                                     <!-- new-table -->
                                                                     <div class="table-p2">
                                                                         <div class="table-responsive data-table-show-hide">
-                                                                            <table class="table table-stripeds table-hover align-middle">
+                                                                            <table class="table align-middle">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th scope="col" class="table-tr-one">Name</th>
@@ -2064,7 +2070,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                <tr>
+                                                                                <tr [ngClass]="{'bg-color-show': togglestable[2].state}">
                                                                                     <th class="table-th-one">
                                                                                         <div class="get-user-under-details" (click)="togglesTable(2)" [ngClass]="{'show-under-user': togglestable[2].state}">+</div>
                                                                                         <div class="main-user-under"> 
@@ -2081,7 +2087,7 @@
                                                                                     <td>94.92%</td>
                                                                                     <td>94.92%</td>
                                                                                 </tr>
-                                                                                <tr *ngIf="togglestable[2].state === true">
+                                                                                <tr *ngIf="togglestable[2].state === true" class="bg-light-show-table">
                                                                                     <th class="table-th-one">
                                                                                         <!-- if you want user row add plus div here -->
                                                                                         <div class="main-user-under no-under-user"> 
@@ -2196,7 +2202,7 @@
                                                                     <!-- new-table -->
                                                                     <div class="table-p2">
                                                                         <div class="table-responsive data-table-show-hide">
-                                                                            <table class="table table-stripeds table-hover align-middle">
+                                                                            <table class="table align-middle">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th scope="col" class="table-tr-one">Name</th>
@@ -2207,7 +2213,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                <tr>
+                                                                                <tr [ngClass]="{'bg-color-show': togglestable[3].state}">
                                                                                     <th class="table-th-one">
                                                                                         <div class="get-user-under-details" (click)="togglesTable(3)" [ngClass]="{'show-under-user': togglestable[3].state}">+</div>
                                                                                         <div class="main-user-under"> 
@@ -2220,7 +2226,7 @@
                                                                                     <td>98</td>
                                                                                     <td>10.75%</td>
                                                                                 </tr>
-                                                                                <tr *ngIf="togglestable[3].state === true">
+                                                                                <tr *ngIf="togglestable[3].state === true" class="bg-light-show-table">
                                                                                     <th class="table-th-one">
                                                                                         <!-- if you want user row add plus div here -->
                                                                                         <div class="main-user-under no-under-user"> 
@@ -2408,7 +2414,7 @@
                                                                     <!-- new-table -->
                                                                     <div class="table-p2">
                                                                         <div class="table-responsive data-table-show-hide">
-                                                                            <table class="table table-stripeds table-hover align-middle">
+                                                                            <table class="table align-middle">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th scope="col" class="table-tr-one">Name</th>
@@ -2423,7 +2429,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                <tr>
+                                                                                <tr [ngClass]="{'bg-color-show': togglestable[4].state}">
                                                                                     <th class="table-th-one">
                                                                                         <div class="get-user-under-details" (click)="togglesTable(4)" [ngClass]="{'show-under-user': togglestable[4].state}">+</div>
                                                                                         <div class="main-user-under"> 
@@ -2440,7 +2446,7 @@
                                                                                     <td>94.92%</td>
                                                                                     <td>94.92%</td>
                                                                                 </tr>
-                                                                                <tr *ngIf="togglestable[4].state === true">
+                                                                                <tr *ngIf="togglestable[4].state === true" class="bg-light-show-table">
                                                                                     <th class="table-th-one">
                                                                                         <!-- if you want user row add plus div here -->
                                                                                         <div class="main-user-under no-under-user"> 
@@ -2555,7 +2561,7 @@
                                                                     <!-- new-table -->
                                                                     <div class="table-p2">
                                                                         <div class="table-responsive data-table-show-hide">
-                                                                            <table class="table table-stripeds table-hover align-middle">
+                                                                            <table class="table align-middle">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th scope="col" class="table-tr-one">Name</th>
@@ -2566,7 +2572,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                <tr>
+                                                                                <tr [ngClass]="{'bg-color-show': togglestable[5].state}">
                                                                                     <th class="table-th-one">
                                                                                         <div class="get-user-under-details" (click)="togglesTable(5)" [ngClass]="{'show-under-user': togglestable[5].state}">+</div>
                                                                                         <div class="main-user-under"> 
@@ -2579,7 +2585,7 @@
                                                                                     <td>98</td>
                                                                                     <td>10.75%</td>
                                                                                 </tr>
-                                                                                <tr *ngIf="togglestable[5].state === true">
+                                                                                <tr *ngIf="togglestable[5].state === true" class="bg-light-show-table">
                                                                                     <th class="table-th-one">
                                                                                         <!-- if you want user row add plus div here -->
                                                                                         <div class="main-user-under no-under-user"> 

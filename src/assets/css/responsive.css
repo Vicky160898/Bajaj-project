@@ -791,6 +791,7 @@
         border-radius: 24px 24px 0 0;
         padding: 17px 15px;
         border-bottom: transparent;
+        margin-top: 60px;
     }
 
     .tabs-mtd-ytd-monthly .nav .nav-link {
@@ -1656,6 +1657,10 @@
         opacity: 1;
         background-color: #005dac24;
         border-left: 5px solid #005DAC;
+    }
+
+    .mobile-user-details{
+        display: flex;
     }
 }
 
